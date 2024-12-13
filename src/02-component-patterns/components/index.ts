@@ -14,6 +14,6 @@ export const ProductCard: ProductCardHOCProps = Object.assign( ProductCardHOC, {
 });
 
 // se usa en forma # 1 HOC
-export * from './ProductImage';
-export * from './ProductTitle';
-export * from './ProductButtons';
+export { ProductImage } from './ProductImage';
+export { ProductTitle } from './ProductTitle';
+export { ProductButtons } from './ProductButtons';
